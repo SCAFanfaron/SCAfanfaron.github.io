@@ -31,32 +31,53 @@
 
     <div class="faq">
         <div class="question">Q1: What is Git?</div>
-        <div>A1: Git is a system for tracking changes in code during development.</div>
+        <div>Git is a system for tracking changes in code during development.</div>
     </div>
 
     <div class="faq">
         <div class="question">Q2: How does Git works?</div>
-        <div>A2: Git works by saving and storing changes of code as commits.</div>
+        <div>Git works by saving and storing changes of code as commits.</div>
     </div>
 
     <div class="faq">
         <div class="question">Q3: Why Git is needed?</div>
-        <div>A3: Git is needed to track changes of code and collaborate with other developers, which makes it easier to manage code for a companies.</div>
+        <div>Git is needed to track changes of code and collaborate with other developers, which makes it easier to manage code for a companies.</div>
     </div>
     
     <div class="faq">
         <div class="question">Q4: What is Git rebase?</div>
-        <div>A3: Git rebase is a git command that changes the branch base and integrates changes from other branch to current one. Unlike git merge git rebase does not combine the commits history of two branches, git rebase move the commits of current branch to new one and by that changing commits history. </div>
+        <div>Git rebase is a git command that changes the branch base and integrates changes from other branch to current one. Unlike git merge git rebase does not combine the commits history of two branches, git rebase move the commits of current branch to new one and by that changing commits history. </div>
     </div>
 
     <div class="faq">
         <div class="question">Q5: What is Git fetch?</div>
-        <div>A3: Git fetch is a git command that downloads the latest changes from a remote repository. Unlike git pull git fitch does not automatically integrates changes from a remote repository into current branch, so it is generally safer because you can review changes before merging them into your current branch.</div>
+        <div>Git fetch is a git command that downloads the latest changes from a remote repository. Unlike git pull git fitch does not automatically integrates changes from a remote repository into current branch, so it is generally safer because you can review changes before merging them into your current branch.</div>
     </div>
 
     <div class="faq">
         <div class="question">Q6: What is Git actions?</div>
-        <div>A3: GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) service that enables automation of workflows directly within GitHub repositories. It allows developers to create custom workflows triggered by events such as code pushes, pull requests, and issue creation.</div>
+        <div>GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) service that enables automation of workflows directly within GitHub repositories. It allows developers to create custom workflows triggered by events such as code pushes, pull requests, and issue creation.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q7: What is git wokflow?</div>
+        <div>A Git workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">Q8: How does git wokflow work?</div>
+        <div> Git workflow works by uning branching strategy that consists of the following branches: 
+            Master
+            Develop
+            Feature - to develop new features that branches off the develop branch 
+            Release - help prepare a new production release; usually branched from the develop branch and must be merged back to both develop and master
+            Hotfix- also helps prepare for a release but unlike release branches, hotfix branches arise from a bug that has been discovered and must be resolved; it enables developers to keep working on their own changes on the develop branch while the bug is being fixed.
+            The main and develop branches are considered to be the main branches, with an infinite lifetime, while the rest are supporting branches that are meant to aid parallel development among developers, usually short-lived.</div>
+    </div>
+
+     <div class="faq">
+        <div class="question">Q9: What wokflow is needed?</div>
+        <div>Workflow model allows for parallel development to protect the production code so the main branch remains stable for release while developers work on separate branches. Moreover, the various types of branches make it easier for developers to organize their work. This strategy contains separate and straightforward branches for specific purposes though for that reason it may become complicated for many use cases. It is also ideal when handling multiple versions of the production code.</div>
     </div>
     
 </body>
